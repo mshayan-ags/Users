@@ -49,7 +49,7 @@ export function setUserDataFirebase(user, authUser) {
 	}
 
 	// Create missing user settings
-	return createUserSettingsFirebase(authUser);
+	// return createUserSettingsFirebase(authUser); 
 }
 
 /**

@@ -55,19 +55,14 @@ function Register() {
 			<FuseAnimate animation={{ translateX: [0, '100%'] }}>
 				<Card className="w-full max-w-400 mx-auto m-16 md:m-0" square>
 					<CardContent className="flex flex-col items-center justify-center p-32 md:p-48 md:pt-128 ">
-						<Typography variant="h6" className="md:w-full mb-32">
-							CREATE AN ACCOUNT
-						</Typography>
+					
 
-						{selectedTab === 0 && <JWTRegisterTab />}
+						{selectedTab === 0 && <FirebaseRegisterTab />}
 	
 						<div className="flex flex-col items-center justify-center pt-32 pb-24">
 							<span className="font-medium">Already have an account?</span>
 							<Link className="font-medium" to="/login">
 								Login
-							</Link>
-							<Link className="font-medium mt-8" to="/">
-								Back to Dashboard
 							</Link>
 						</div>
 
@@ -78,5 +73,6 @@ function Register() {
 		</div>
 	);
 }
+
 
 export default Register;
