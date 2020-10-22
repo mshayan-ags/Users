@@ -23,7 +23,7 @@ const navigationConfig = [
 				title: 'Users',
 				translate: 'Users',
 				type: 'item',
-				icon: 'People',
+				icon: 'supervised_user_circle',
 				url: '/Users'
 			},
 			
